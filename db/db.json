@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "virat",
+        "profile_pic": "./src/assets/download.jpg"
+      },
+      "image": "./src/assets/download.jpg",
+      "caption": "Beautiful sunset #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot!"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "vijay",
+        "profile_pic": "./src/assets/vijay.jpg"
+      },
+      "image": "./src/assets/vijay.jpg",
+      "caption": "Morning vibes with chirping birds 🐦",
+      "likes": 89,
+      "comments": [
+        {
+          "user": "prem_kumar",
+          "comment": "This is so calming!"
+        }
+      ],
+      "timestamp": "2025-03-20T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "curry",
+        "profile_pic": "src/assets/curry.jpg"
+      },
+      "image": "src/assets/curry.jpg",
+      "caption": "Adventure in the highlands ⛰️",
+      "likes": 152,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Take me with you next time 😍"
+        }
+      ],
+      "timestamp": "2025-04-02T16:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "virat",
+    "profile_pic": "src/assets/instagram.png"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "virat",
+      "profile_pic": "src/assets/instagram.png"
+    },
+    {
+      "id": "102",
+      "username": "vijay",
+      "profile_pic": "./src/assets/instagram.png"
+    },
+    {
+      "id": "103",
+      "username": "curry",
+      "profile_pic": "src/assets/instagram.png"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "virat",
+        "profile_pic": "./src/assets/download.jpg"
+      },
+      "image": "/virattt.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "vijay",
+        "profile_pic": "./src/assets/vijay.jpg"
+      },
+      "image": "/vijayyy.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "curry",
+        "profile_pic": "./src/assets/curry.jpg"
+      },
+      "image": "/curr.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": 101,
+      "username": "virat",
+      "profile_pic": "./src/assets/download.jpg"
+    },
+    {
+      "id": 102,
+      "username": "vijay",
+      "profile_pic": "./src/assets/vijay.jpg"
+    },
+    {
+      "id": 103,
+      "username": "curry",
+      "profile_pic": "./src/assets/curry.jpg"
+    }
+  ]
+}
