@@ -1,6 +1,6 @@
 import './App.css';
 import Feed from './Feed';
-import SideBar from './sidebar';
+import SideBar from './Sidebar';
 import Suggestions from './Suggestions';
 
 function App() {
